@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+    <script src="js/main.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>Travel</title>
@@ -44,7 +45,7 @@
                         </div>
                         
                         <p class="text">* Поля помеченые звездочкой обезательны для заполнения </p>
-                        <button class="button">
+                        <button class="button" onclick="collapseMenu()">
                             <img src="images/materials/check.png" alt="check" width="10px" height="10px">
                             Забронировать
                         </button>
@@ -54,6 +55,20 @@
         </div>
         </div>
 
+    </section>
+    <section class="pictures" id="pictures">
+        <div class="pictures-block">
+            <div class="pictures-block-info-frame1">
+                <div class="pictures-block-info-text">
+                    <div class="block-title-h1">Спасибо,</div>
+                    <div class="block-title-h2">за оставленную заявку!</div>
+                    <div class="block-text">Мы свяжемся с вами в ближайшее время</div>
+                </div>
+            </div>
+            <div class="pictures-close" id="close" onclick="collapseMenu()">
+                <img src="images/materials/close_blue.png" alt="">
+            </div>
+        </div>
     </section>
 </body>
 
