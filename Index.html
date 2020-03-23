@@ -21,7 +21,7 @@
                 <div class="col-lg-8 px-0">
                     <p class="title">Контакты заказчика</p>
                     <p class="text">После бронирования ваш персональный менеджер свяжется с вами</p>
-                    <form action="">
+                    <form action="" id="form">
 
                         <div class="input-user">
                             <img class="input-user-icon" src="images/svg/user.svg" alt="user_icon">
@@ -32,7 +32,7 @@
                             <img src="images/materials/call.png" alt="phone" class="input-user-icon">
                             <input type="tel" class="input" placeholder="Телефон*" required>
                         </div>
-                        
+
                         <div class="input-user">
                             <img src="images/materials/mail.png" alt="mail" class="input-user-icon">
                             <input type="email" class="input" placeholder="E-mail*" required>
@@ -41,11 +41,11 @@
                         <div class="input-info">
                             <img src="images/materials/info.png" alt="mail" class="input-info-icon">
                             <textarea class="input" name="comment" cols="40" rows="3" class="feedbacks-forms-comment"
-                            placeholder="Примечания"></textarea>
+                                placeholder="Примечания"></textarea>
                         </div>
-                        
+
                         <p class="text">* Поля помеченые звездочкой обезательны для заполнения </p>
-                        <button class="button" onclick="collapseMenu()">
+                        <button class="button" id="collapseBtn">
                             <img src="images/materials/check.png" alt="check" width="10px" height="10px">
                             Забронировать
                         </button>
@@ -56,7 +56,7 @@
         </div>
 
     </section>
-    <section class="pictures" id="pictures">
+    <section class="pictures" id="pictures" style="display: none;">
         <div class="pictures-block">
             <div class="pictures-block-info-frame1">
                 <div class="pictures-block-info-text">
@@ -70,6 +70,18 @@
             </div>
         </div>
     </section>
+
+    <script>
+        let collapseBtn = document.getElementById('collapseBtn');
+        let form = document.getElementById('form');
+
+        collapseBtn.addEventListener('click', e => {
+            if (form.checkValidity()) {
+                collapseMenu();
+                e.preventDefault();
+            }
+        });
+    </script>
 </body>
 
 </html>
