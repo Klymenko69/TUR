@@ -1,0 +1,395 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'GothaProReg';
+    background-image: url("../images/bgTur1.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'GothaProReg';
+    src: url(../fonts/Gotham/GothaProReg.otf)
+}
+
+@font-face {
+    font-family: 'GothaProMed';
+    src: url(../fonts/Gotham/GothaProMed.otf);
+}
+
+@font-face {
+    font-family: 'GothaProBol';
+    src: url(../fonts/Gotham/GothaProBol.otf);
+}
+
+
+.container {
+    max-width: 1140px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.header {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.header-title-h1 {
+    font-family: 'GothaProBol';
+    font-size: 45pt;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+.header-title-h4 {
+    font-family: 'GothaProReg';
+    font-size: 15pt;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    padding:20px 0 ;
+    text-transform: uppercase;
+}
+
+.header-text {
+    font-family: 'GothaProReg';
+    font-size: 12pt;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+    line-height: 22pt;
+
+    padding: 0 0 40px 0;
+}
+
+.form-tur {
+    background: #ffffff;
+    height:auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.form-tur-block{
+    padding: 33px 44px;
+}
+
+.title {
+    color: #025f83;
+    font-weight: bold;
+    font-family: 'GothaProBol';
+    font-size: 30px;
+}
+
+.text {
+    font-family: 'GothaProReg';
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.5;
+    padding: 12px 0;
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.info-client {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-h4 {
+    padding: 16px 0;
+    font-family: 'GothaProBol';
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.info-client-forms {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 35px;
+}
+
+
+
+.client-forms {
+    width: 100%;
+    margin: 0;
+    padding: 16px 0 16px 17px;
+    font-size: 14px;
+    font-family: 'GothaProReg';
+    font-weight: normal;
+    opacity: 0.5;
+}
+
+
+.info-title-circle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.title-circle {
+    width: 24px;
+    height: 24px; 
+    background: #7fc8cf;
+    color: #fff; 
+    border-radius: 50%;
+    display: flex;
+
+}
+
+p {
+    margin: 0 auto;
+    display: flex;
+    font-family: 'GothaProMed';
+    font-size: 16px;
+}
+
+.title-h5 {
+    padding: 0 12px;
+    color: #2b6d8d;
+}
+
+.client-forms-data {
+    width: 100%;
+    position: relative;
+}
+
+.client-form-text {
+    padding: 0 0 9px;
+    font-family: 'GothaProReg';
+    font-size: 14px;
+}
+
+.payment {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    border-radius: 20px;
+    margin: 37px 0 64px;
+}
+
+.payment-content {
+    padding: 33px 44px;
+}
+
+.payment-bank {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.payment-bank-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-bank-img {
+    position: relative;
+}
+
+.payment-bank-hover {
+    position: absolute;
+}
+
+.payment-bank-pic {
+    width: 154px;
+    height: 127px;
+    margin: 10px 10px;
+}
+
+.payment-bank-img:hover > .payment-bank-hover {
+    background-image: url("../images/materials/check_hover.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.payment-bank-text {
+    margin: 10px 10px;
+}
+
+.hr {
+    width: 100%;
+    padding: 12px 0;
+}
+
+.contacts {
+    width: 100%;
+    padding: 41px 0 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contacts-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contacts-block-text {
+    padding: 0 12px;
+    opacity: 0.5;
+    font-size: 20px;
+    font-family: 'GothaProReg';
+    font-weight: normal;
+}
+
+
+
+.payment-btn {
+    width: 255px;
+    height: 50px;
+    background: #ffd76d;
+    border: 0;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'GothaProBol';
+    margin: 0 auto;
+}
+
+.btn-text {
+    font-size: 16px;
+    color: #025f83;
+    font-weight: normal;
+    padding: 0 10px;
+}
+
+.pictures {
+    position: fixed;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.pictures-block {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+.pictures-block-info-frame1 {
+    background-image: url('../images/materials/frame1.png');
+    width: 766px;
+    height: 469px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.pictures-block-info-frame2 {
+    background-image: url('../images/materials/frame2.png');
+    width: 766px;
+    height: 469px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.pictures-block-info-text {
+    padding: 80px 80px;
+}
+
+.block-title-h1 {
+    font-family: 'GothaProBol';
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.block-title-h2 {
+    font-family: 'GothaProBol';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.block-text {
+    font-size: 15px;
+    font-family: 'GothaProReg';
+    font-weight: normal;
+}
+
+.pictures-close {
+    padding: 30px 0 0 15px;
+}
+
+@media(max-width: 998px) {
+    .payment-bank {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .contacts {
+        width: 100%;
+        height: 300px;
+        padding: 41px 0 36px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .info-client-forms {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        border-top: 1px;
+        margin: 0 auto;
+    }
+
+    .client-forms-data {
+        padding: 20px 0;
+    }
+
+
+    .header-title-h1 {
+        font-size: 30px;
+    }
+
+    .client-forms {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .text {
+        
+    }
+
+}

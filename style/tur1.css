@@ -1,0 +1,278 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("../images/bgTur1.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'GothaProReg';
+    src: url(../fonts/Gotham/GothaProReg.otf)
+}
+
+@font-face {
+    font-family: 'GothaProMed';
+    src: url(../fonts/Gotham/GothaProMed.otf);
+}
+
+@font-face {
+    font-family: 'GothaProBol';
+    src: url(../fonts/Gotham/GothaProBol.otf);
+}
+
+
+.container {
+    max-width: 931px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.header {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.header-title-h1 {
+    font-family: 'GothaProBol';
+    font-size: 45pt;
+    color: #ffffff;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+.header-title-h4 {
+    font-family: 'GothaProReg';
+    font-size: 15pt;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    padding:20px 0 ;
+    text-transform: uppercase;
+}
+
+.header-text {
+    font-family: 'GothaProReg';
+    font-size: 12pt;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+    line-height: 22pt;
+
+    padding: 0 0 40px 0;
+}
+
+.card-bali {
+    width: 100%;
+    height: 560px;
+    background: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;  
+}
+
+.pic-bali {
+    width: 35%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 20px 0 0 20px;
+}
+
+.pic-bali-jpg {
+    height: 100%;
+    width: auto;  
+    position: relative; 
+    right: 120px;
+    border-radius: 20px 0 0 20px;  
+}
+
+.content-bali {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 34px 39px;
+}
+
+.content-bali-title {
+    font-family: 'GothaProBol';
+    font-size: 30px;
+    color: #025f83;
+}
+
+.content-attributes {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-attributes-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 27px 25px 0 0;
+}
+
+.attributes-text {
+    opacity: 0.5;
+    font-family: 'GothaProReg';
+    font-size: 12pt;
+    padding: 0 10px;
+}
+
+.card-text {
+    padding: 25px 0;
+    opacity: 0.5;
+    font-family: 'GothaProReg';
+    font-size: 14px;
+    line-height: 15pt;
+}
+
+hr {
+    border: none; 
+    background-color: #000000; 
+    color: #000000; 
+    height: 1px; 
+    width: 100%;
+    opacity: 0.1;
+   }
+
+.info {
+    padding: 27px 0;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'GothaProMed';
+    font-size: 16px;
+    opacity: 0.5;
+    padding: 0 0 27px 0;
+}
+
+.info-row-black {
+    padding: 0 10px 0 0;
+}
+
+.info-row-blue {
+    color: #015c7f;
+}
+
+.info-row-pic {
+    padding: 0 20px;
+}
+
+.btn {
+    width: 255px;
+    height: 50px;
+    background: #ffd76d;
+    border: 0;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'GothaProBol';
+}
+
+.btn-text {
+    font-size: 16px;
+    color: #025f83;
+    font-weight: normal;
+    padding: 0 10px;
+}
+
+.bot-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.favorite {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.favorite-text {
+    padding: 0 10px;
+    font-family: 'GothaProReg';
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+.description {
+    background: #ffffff;
+    width: 100%;
+    height: auto;
+    margin: 40px 0 60px ;
+    border-radius: 20px;
+}
+
+.description-content {
+    padding: 57px 42px 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.description-content-title {
+    font-family: 'GothaProBol';
+    font-size: 26px;
+    color: #025f83;
+}
+
+.description-content-text {
+    color: #000;
+    opacity: 0.5;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 26px 0 0;
+}
+
+.description-content-picture {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 32px 0;
+    flex-wrap: wrap;
+}
+
+.description-pic {
+    width: 260px;
+    height: 173px;
+    border-radius: 10px;
+}
+
+.description-button {
+    margin: 0 auto;
+}
+
+@media(max-width: 998px) {
+    .header-title-h1 {
+        font-size: 35px;
+    }
+
+    .content-attributes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

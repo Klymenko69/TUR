@@ -1,0 +1,161 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("../images/back.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;    
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.row{
+    background: #ffffff;
+    width: 35rem;
+    height: 22rem;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding:  0;
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.col{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.col-img{
+    width: 100%;
+    height: 100%;
+}
+
+.col-pic{
+    height: 100%;
+    width: auto;
+    border-radius: 20px 0 0 20px;  
+    background-size: cover; 
+    position: absolute; 
+    left: -80px;
+}
+
+.col-content{   
+    padding: 10px 0;
+}
+
+@font-face {
+    font-family: 'Gotham Pro bold';
+    src: url(../fonts/Gotham/GothaProBol.otf);
+}
+
+.title{
+    color: #025f83;
+    font-weight: bolder;
+    font-family: 'Gotham Pro bold';
+    font-size: 20px;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'GothaProMed';
+    src: url(../fonts/Gotham/GothaProMed.otf);
+}
+
+.text{
+    font-family: 'GothaProMed';
+    font-size: 10px;
+    color: #000000;
+    opacity: 0.5;
+    margin:0 0 10px 0;}
+
+form{
+    width: 100%;
+    padding: 0 10px 0 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 80%;
+}
+
+@font-face {
+    font-family: 'GothaProReg';
+    src: url(../fonts/Gotham/GothaProReg.otf)
+}
+
+.input-user {
+    display: flex;
+    align-items: center;
+}
+
+.input-user-icon {
+    width: 15px;
+    height: 15px;    
+    position: absolute;
+    left: 10px;
+    fill: #ffd76d;
+    opacity: 1;
+}
+
+.input-info-icon {
+    width: 15px;
+    height: 15px;    
+    position: absolute;
+    left: 10px;
+    fill: #ffd76d;
+    top: 8px;
+    z-index: 10;
+}
+
+.input-info {
+    position: relative;
+}
+
+.input{
+    width: 100%;
+    margin: 0;
+    padding: 7px 30px;
+    font-size: 12px;
+    resize: none;
+    color: #000;
+    opacity: 0.5;
+    font-family: 'GothaProReg';
+    
+}
+
+/* .user{
+    background-image: url(../images/materials/user.png);
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: 15px 15px;
+    background-position-y: center;
+} */
+
+p{
+    font-size: 10px;
+    color: grey;
+    margin: 0;
+}
+
+.button{
+    background: rgb(247, 203, 94);
+    color:#025f83;
+    width: 60%;
+    border: 1px;
+    margin: 0 auto;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
