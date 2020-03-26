@@ -385,9 +385,11 @@ table {
     display: flex;
     align-items: center;
     text-align: center;
+    width: 34%;
+    justify-content: space-around;
 }
 .table-block-info {
     display: flex;
     flex-direction: row;
-    width: 63%;
+    width: 65%;
 }
