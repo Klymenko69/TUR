@@ -335,3 +335,32 @@ p {
 a {
     text-decoration: none;
 }
+
+table {
+    border: darkgray;
+    opacity: 0.5;
+
+}
+.table-form {
+    border: 0;
+    width: 100%;
+    opacity: 1;
+}
+
+.table-title {
+    width: 25%;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.table-form-checkbox {
+    
+}
+
+.table-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    align-items: center;
+}
+
