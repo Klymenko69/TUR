@@ -281,6 +281,14 @@ p {
     padding: 0 10px;
 }
 
+.btn-text:hover {
+    font-size: 16px;
+    color: #025f83;
+    font-weight: normal;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
 
 
 @media(max-width: 998px) {
@@ -337,6 +345,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 table {
     border: darkgray;
     opacity: 0.5;
@@ -361,7 +373,21 @@ table {
 .table-block {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;   
+     
     align-items: center;
 }
 
+.table-block-pad {
+    padding-left: 20px;
+}
+
+.table-block-pad-other {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.table-block-info {
+    display: flex;
+    
+    width: 63%;
+}
