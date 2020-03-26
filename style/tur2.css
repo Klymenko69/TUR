@@ -271,6 +271,7 @@ p {
     font-weight: bold;
     font-family: 'GothaProBol';
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .btn-text {

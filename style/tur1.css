@@ -190,6 +190,7 @@ hr {
     align-items: center;
     font-weight: bold;
     font-family: 'GothaProBol';
+    cursor: pointer;
 }
 
 .btn-text {
